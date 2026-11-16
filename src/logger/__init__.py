@@ -1,6 +1,6 @@
 """"
 Initiating logger with both console and file handler.
-Console handler logs in the terminal/kernel but file handler saves the log report in a file. 
+Console handler logs in the terminal/kernel but file handler saves the log report in a file.
 """
 
 import logging
@@ -15,7 +15,7 @@ MAX_LOG_SIZE = 5 * 1024 * 1024
 BACKUP_COUNT = 3
 
 log_dir_path = os.path.join(from_root(), LOG_DIR)
-os.mkdir(log_dir_path, exist_ok=True)
+os.makedirs(log_dir_path, exist_ok=True)
 log_file_path = os.path.join(log_dir_path, LOG_FILE)
 
 def configure_logger():
