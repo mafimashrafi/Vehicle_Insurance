@@ -38,10 +38,10 @@
 
 | # | Task | ✅ Done | ⏳ Pending | ⏭️ Skip |
 |:-:|------|:------:|:---------:|:------:|
-| 1 | Create project template by executing `template.py` | ⬜ | ☑️ | ⬜ |
-| 2 | Write code in `setup.py` and `pyproject.toml` to import local packages<br>↳ See `crashcourse.txt` for more details | ⬜ | ☑️ | ⬜ |
-| 3 | Create a virtual env, activate it and install requirements<br>↳ `conda create -n vehicle python=3.10 -y`<br>↳ `conda activate vehicle`<br>↳ Add required modules to `requirements.txt`<br>↳ `pip install -r requirements.txt` | ⬜ | ☑️ | ⬜ |
-| 4 | Run `pip list` in terminal to confirm local packages are installed | ⬜ | ☑️ | ⬜ |
+| 1 | Create project template by executing `template.py` | ☑️ | ⬜ | ⬜ |
+| 2 | Write code in `setup.py` and `pyproject.toml` to import local packages<br>↳ See `crashcourse.txt` for more details | ☑️ | ⬜ | ⬜ |
+| 3 | Create a virtual env, activate it and install requirements<br>↳ `conda create -n vehicle python=3.10 -y`<br>↳ `conda activate vehicle`<br>↳ Add required modules to `requirements.txt`<br>↳ `pip install -r requirements.txt` | ☑️ | ⬜ | ⬜ |
+| 4 | Run `pip list` in terminal to confirm local packages are installed | ☑️ | ⬜ | ⬜ |
 
 ---
 
@@ -49,15 +49,15 @@
 
 | # | Task | ✅ Done | ⏳ Pending | ⏭️ Skip |
 |:-:|------|:------:|:---------:|:------:|
-| 5 | Sign up to MongoDB Atlas and create a new project (give it a name, then next, next, create) | ⬜ | ☑️ | ⬜ |
-| 6 | On "Create a cluster" screen, hit **Create**, select **M0** (keep other defaults), hit **Create deployment** | ⬜ | ☑️ | ⬜ |
-| 7 | Set up username and password, then create the DB user | ⬜ | ☑️ | ⬜ |
-| 8 | Go to **Network Access** and add IP address `0.0.0.0/0` (access from anywhere) | ⬜ | ☑️ | ⬜ |
-| 9 | Project → **Get Connection String** → **Drivers** → Driver: Python, Version: 3.6 or later<br>↳ Copy and save the connection string (replace the password) | ⬜ | ☑️ | ⬜ |
-| 10 | Create folder `notebook` → complete step 11 → create `mongoDB_demo.ipynb` → select kernel → Python → `vehicle` | ⬜ | ☑️ | ⬜ |
-| 11 | Add the dataset to the `notebook` folder | ⬜ | ☑️ | ⬜ |
-| 12 | Push your data to the MongoDB database from the Python notebook | ⬜ | ☑️ | ⬜ |
-| 13 | MongoDB Atlas → Database → Browse Collection → verify data in key-value format | ⬜ | ☑️ | ⬜ |
+| 5 | Sign up to MongoDB Atlas and create a new project (give it a name, then next, next, create) | ☑️ | ⬜ | ⬜ |
+| 6 | On "Create a cluster" screen, hit **Create**, select **M0** (keep other defaults), hit **Create deployment** | ☑️ | ⬜ | ⬜ |
+| 7 | Set up username and password, then create the DB user | ☑️ | ⬜ | ⬜ |
+| 8 | Go to **Network Access** and add IP address `0.0.0.0/0` (access from anywhere) | ☑️ | ⬜ | ⬜ |
+| 9 | Project → **Get Connection String** → **Drivers** → Driver: Python, Version: 3.6 or later<br>↳ Copy and save the connection string (replace the password) | ☑️ | ⬜ | ⬜ |
+| 10 | Create folder `notebook` → complete step 11 → create `mongoDB_demo.ipynb` → select kernel → Python → `vehicle` | ☑️ | ⬜ | ⬜ |
+| 11 | Add the dataset to the `notebook` folder | ☑️ | ⬜ | ⬜ |
+| 12 | Push your data to the MongoDB database from the Python notebook | ☑️ | ⬜ | ⬜ |
+| 13 | MongoDB Atlas → Database → Browse Collection → verify data in key-value format | ☑️ | ⬜ | ⬜ |
 
 ---
 
@@ -65,9 +65,9 @@
 
 | # | Task | ✅ Done | ⏳ Pending | ⏭️ Skip |
 |:-:|------|:------:|:---------:|:------:|
-| 14 | Write the logger file and test it in `demo.py` | ⬜ | ☑️ | ⬜ |
-| 15 | Write the exception file and test it in `demo.py` | ⬜ | ☑️ | ⬜ |
-| 16 | Add EDA and Feature Engineering notebook | ⬜ | ☑️ | ⬜ |
+| 14 | Write the logger file and test it in `demo.py` | ☑️ | ⬜ | ⬜ |
+| 15 | Write the exception file and test it in `demo.py` | ☑️ | ⬜ | ⬜ |
+| 16 | Add EDA and Feature Engineering notebook | ☑️ | ⬜ | ⬜ |
 
 ---
 
