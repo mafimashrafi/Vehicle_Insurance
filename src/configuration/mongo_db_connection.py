@@ -27,9 +27,9 @@ class MongoDBClient:
             if MongoDBClient.client is None:
                 if MONGODB_URI is None:
                     raise Exception(f"MongoDB URI is {MONGODB_URI} is not set")
-                MongoDBClient.client = pymongo.MongoClient(MONGODB_URI)
+                MongoDBClient.client = pymongo.MongoClient(MONGODB_URI, tlsCAFile=ca)
 
-            self.client = MongoClient
+            self.client = MongoDBClient.client
             self.database_name = database_name
             self.database = self.client[database_name]
             logging.info(f"MongoDB client initialized successfully")
