@@ -18,6 +18,7 @@ class TrainingPipeline:
     def __init__(self):
         self.data_ingestion_config = DataIngestionConfig()
         self.data_validation_config = DataValidationConfig()
+        self.data_transformation_config = DataTransformationConfig()
 
     def start_data_ingestion(self) -> DataIngestionArtifact:
         """
@@ -75,6 +76,8 @@ class TrainingPipeline:
         try:
             data_ingestion_artifact = self.start_data_ingestion()
             data_validation_artifact = self.start_data_validation(data_ingestion_artifact=data_ingestion_artifact)
+            data_transformation_artifact = self.start_data_transformation(data_ingestion_artifact=data_ingestion_artifact,
+                                                                          data_validation_artifact=data_validation_artifact)
 
         except Exception as e:
             raise MyException(e, sys) from e
