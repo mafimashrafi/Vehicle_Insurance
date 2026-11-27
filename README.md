@@ -86,7 +86,7 @@
 |:-:|------|:------:|:---------:|:------:|
 | 19 | Complete `utils/main_utils.py` and `config/schema.yaml` (add entire dataset info for validation) | ☑️ | ⬜ | ⬜ |
 | 20 | Work on the **Data Validation** component (same approach as step 17) | ☑️ | ⬜ | ⬜ |
-| 21 | Work on the **Data Transformation** component (same approach; add `estimator.py` to the `entity` folder) | ⬜ | ☑️ | ⬜ |
+| 21 | Work on the **Data Transformation** component (same approach; add `estimator.py` to the `entity` folder) | ☑️ | ⬜ | ⬜ |
 | 22 | Work on the **Model Trainer** component (same approach; add class to `estimator.py` in `entity` folder) | ⬜ | ☑️ | ⬜ |
 
 ---
